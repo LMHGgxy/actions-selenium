@@ -29,7 +29,7 @@ pip install selenium undetected-chromedriver
 ```python
 from actions import Actions
 from selenium.webdriver.common.by import By
-from undetected_chromedriver.v2 import Chrome
+from undetected_chromedriver import Chrome
 
 driver = Chrome()
 actions = Actions(driver, By.CSS_SELECTOR, wait=10)
